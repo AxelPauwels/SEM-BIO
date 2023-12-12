@@ -1,0 +1,154 @@
+/* region 4. Elements */
+body {
+  background: #22c1c3;
+  background: linear-gradient(to right, #fdbb2d, #22c1c3);
+  background: none; /* disable here */
+}
+
+h1 {
+  color: green;
+  font-size: 24px;
+}
+
+/* endregion */
+
+/* region 5. Objects */
+.o-grid {
+  display: grid;
+  grid-gap: 0.625rem;
+  grid-template-areas: "header header header" "main main sidebar" "footer footer footer";
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 20% 1fr 20%;
+}
+
+.o-grid__item {
+  background-color: #d2d7df;
+}
+
+.o-grid__header {
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+  grid-area: header;
+  padding: 1.25rem;
+}
+
+.o-grid__main {
+  grid-area: main;
+  padding: 3.125rem;
+}
+
+.o-grid__sidebar {
+  grid-area: sidebar;
+  padding: 1.25rem;
+}
+
+.o-grid__footer {
+  align-items: center;
+  display: flex;
+  grid-area: footer;
+  justify-content: space-between;
+  padding: 1.25rem;
+}
+
+/* endregion */
+
+/* region 6. Components */
+/* region Buttons*/
+.c-btn {
+  background-color: transparent;
+  border: 0;
+  border-radius: 0.1875rem;
+  color: black;
+  padding: 0.3125rem 0.625rem;
+  text-decoration: none;
+}
+
+.c-btn--large {
+  font-size: 1.5625rem;
+}
+
+.c-btn--3d.c-btn--yellow {
+  box-shadow: 0 4px #9b690d;
+}
+
+.c-btn--3d.c-btn--blue {
+  box-shadow: 0 4px #0b66d5;
+}
+
+.c-btn--yellow {
+  background-color: #eca522;
+}
+
+.c-btn--blue {
+  background-color: #519bf6;
+  color: white;
+}
+
+.c-btn--red {
+  background-color: red;
+  color: white;
+}
+
+/** endregion */
+
+/* region Social media */
+.c-social-media {
+  display: flex;
+  gap: 5px;
+  list-style: none;
+}
+
+.c-social-media__item {
+  align-items: center;
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  font-size: 30px;
+  height: 1.5rem;
+  padding: 0.625rem;
+  transition: background-color 0.6s ease, color 0.6s ease;
+  width: 1.5rem;
+  justify-content: space-around;
+}
+
+/* endregion */
+/* endregion */
+
+/* region 7. Patterns */
+.p-grid-layout {
+  background-color: #FFF;
+  margin: 3.125rem auto;
+  width: 90%;
+  grid-gap: 20px;
+}
+
+/* endregion */
+
+/* region 8. Scopes */
+.s-homepage {
+  background: linear-gradient(to right, #fdbb2d, #333);
+}
+
+/* endregion */
+
+/* region 9. Utilities (use of !important is allowed here */
+.u-clr-red {
+  color: red;
+}
+/* endregion */
+
+/* region (Ignore this. This is just for demo purposes) */
+.demo-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #777;
+  background: white;
+  box-shadow: 3px 3px 6px #777;
+}
+/* endregion */
