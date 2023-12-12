@@ -1,0 +1,13 @@
+/**
+Only import barrel files from ITCSS
+ */
+
+@import "1.settings";
+@import "2.tools";
+@import "3.vendors";
+@import "4.elements";
+@import "5.objects";
+@import "6.components";
+@import "7.patterns";
+@import "8.scopes";
+@import "9.utilities";
