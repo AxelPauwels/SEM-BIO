@@ -1,7 +1,8 @@
 /**
 Sometimes you want to make changes only for a certain style in a specific place. In that case utility classes can help without changing the whole CSS structure
-
 Because this is the last layer containing styles who should always win, you are allowed to use !important here
+Like scope classes, if you are using too many utility classes, you should check with designer if the design can be more consistent across the app
 
-Like scope classes, if you are using too many utility classes,you should check with designer if the design can be more consistent across the app
- */
+Namespace: u
+Examples: u-clr-black, u-text-left, u-top-10, u-font-h2
+*/

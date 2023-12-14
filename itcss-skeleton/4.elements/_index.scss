@@ -1,3 +1,5 @@
 /**
 Elements are the HTML native elements which we would not style base on the class names. We should provide default styles to a <a> element rather the styling a .link class.
- */
+
+Examples: body, h1, span, body:not(.admin-page), section
+*/

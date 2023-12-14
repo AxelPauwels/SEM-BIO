@@ -1,4 +1,7 @@
 /**
 The purpose of scope is to give us the highest specificity so we can override any styles for a specific purpose.
 This layer should stay pretty empty. If you start to write a lot here, you probably have to refactor your CSS structure
- */
+
+Namespace: s
+Example: .c-accordion.s-homepage
+*/
